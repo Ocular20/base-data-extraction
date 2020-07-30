@@ -3,19 +3,19 @@ Unit tests are a must.
 
 Table of Contents
 [Conventions](#conventions)  
-[Code Formatting](#code-formatting)
-[Names](#names)
-[Spaces](#spaces)
-[Docstrings](#docstrings)
-[Imports](#imports)
-[Return Statements](#return-statements)
-[Writing Tests](#writing-tests)
-[Test Files](#test-files)
-[Tests](#tests)
-[Mocking](#mocking)
-[Data Driven Tests](#data-driven-tests)
-[Assertions](#assertions)
-[Assertion Wrapper Functions](#assertion-wrapper-functions)
+[Code Formatting](#code-formatting)  
+[Names](#names)  
+[Spaces](#spaces)  
+[Docstrings](#docstrings)  
+[Imports](#imports)  
+[Return Statements](#return-statements)  
+[Writing Tests](#writing-tests)  
+[Test Files](#test-files)  
+[Tests](#tests)  
+[Mocking](#mocking)  
+[Data Driven Tests](#data-driven-tests)  
+[Assertions](#assertions)  
+[Assertion Wrapper Functions](#assertion-wrapper-functions)  
 
 # Conventions
 Private Functions

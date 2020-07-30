@@ -2,7 +2,7 @@ The Fornax team will adhere to consistent quality coding practices, but also wor
 Unit tests are a must.
 
 Table of Contents (These will have links when I put this in github)
-[Conventions](# conventions)
+[Conventions] (#conventions)
 Private Functions
 Code Formatting
 General

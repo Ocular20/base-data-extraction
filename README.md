@@ -2,19 +2,15 @@ The Fornax team will adhere to consistent quality coding practices, but also wor
 Unit tests are a must.
 
 Table of Contents
-[Conventions](#conventions)
-[Private Functions](#private-functions)
+[Conventions](#conventions)  
 [Code Formatting](#code-formatting)
-[General](#general)
 [Names](#names)
 [Spaces](#spaces)
 [Docstrings](#docstrings)
 [Imports](#imports)
 [Return Statements](#return-statements)
-[Commands](#commands)
 [Writing Tests](#writing-tests)
 [Test Files](#test-files)
-[Pytest Fixtures](#pytest-fixtures)
 [Tests](#tests)
 [Mocking](#mocking)
 [Data Driven Tests](#data-driven-tests)

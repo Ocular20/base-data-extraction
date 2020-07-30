@@ -1,8 +1,8 @@
 The Fornax team will adhere to consistent quality coding practices, but also works to continuously improve those practices.
 Unit tests are a must.
 
-Table of Contents (These will have links when I put this in github)
-[Conventions] (#conventions)
+Table of Contents
+[Conventions](#conventions)
 Private Functions
 Code Formatting
 General
@@ -21,7 +21,7 @@ Data Driven Tests
 Assertions
 Assertion Wrapper Functions
 
-# Conventions
+#Conventions
 Private Functions
 Python has no enforcement of private functions or methods.
 By convention we define "private" functions and methods by prepending the function name with an underscore, e.g. def _my_sort_of_private_function(): and only call them from within the module they are defined in, (except in test code).

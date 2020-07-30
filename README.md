@@ -3,23 +3,23 @@ Unit tests are a must.
 
 Table of Contents
 [Conventions](#conventions)
-Private Functions
-Code Formatting
-General
-Names
-Spaces
-Docstrings
-Imports
-Return Statements
-Commands
-Writing Tests
-Test Files
-Pytest Fixtures
-Tests
-Mocking
-Data Driven Tests
-Assertions
-Assertion Wrapper Functions
+[Private Functions](#private-functions)
+[Code Formatting](#code-formatting)
+[General](#general)
+[Names](#names)
+[Spaces](#spaces)
+[Docstrings](#docstrings)
+[Imports](#imports)
+[Return Statements](#return-statements)
+[Commands](#commands)
+[Writing Tests](#writing-tests)
+[Test Files](#test-files)
+[Pytest Fixtures](#pytest-fixtures)
+[Tests](#tests)
+[Mocking](#mocking)
+[Data Driven Tests](#data-driven-tests)
+[Assertions](#assertions)
+[Assertion Wrapper Functions](#assertion-wrapper-functions)
 
 # Conventions
 Private Functions

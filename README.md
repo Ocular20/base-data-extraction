@@ -21,7 +21,7 @@ Data Driven Tests
 Assertions
 Assertion Wrapper Functions
 
-#Conventions
+# Conventions
 Private Functions
 Python has no enforcement of private functions or methods.
 By convention we define "private" functions and methods by prepending the function name with an underscore, e.g. def _my_sort_of_private_function(): and only call them from within the module they are defined in, (except in test code).

@@ -1,7 +1,7 @@
 The Fornax team will adhere to consistent quality coding practices, but also works to continuously improve those practices.
 Unit tests are a must.
 
-Table of Contents
+Table of Contents  
 [Conventions](#conventions)  
 [Code Formatting](#code-formatting)  
 [Names](#names)  

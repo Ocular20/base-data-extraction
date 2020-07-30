@@ -58,7 +58,7 @@ def _wait4res_del() {
     # code here
 }
 
-Spaces
+# Spaces
 Spaces for indenting code
 
 🎊**Not tabs. Never tabs!**🎊
@@ -130,10 +130,7 @@ def get_thing_length(param1):
         thing_length = len(thing_var_c)
     return thing_length
 
-
-
-
-Docstrings
+# Docstrings
 
 Note: Clear, well written and easy to understand code is greatly favored over the use of docstrings
 Docstrings are optional and may be used to add clarity to the purpose and functioning of modules, methods and functions.
@@ -148,7 +145,7 @@ When writing a docstring, refer to the following for guidance:
 
 For method signature definitions in docstrings use the style outlined in the Sphinx Documentation.
 
-Imports
+# Imports
 
 Imports should be grouped in the following fashion.
     All standard library imports should come before third party imports. e.g. import os should come before import requests
@@ -183,7 +180,7 @@ import aenum
 from datetime import timedelta
 from munch import munchify
 
-Return Statements
+# Return Statements
 Generally, return statements should be simple and short.
 
     Return statements may include simple computation, e.g.
@@ -219,13 +216,13 @@ def get_the_thing_we_want(some_other_thing):
         return None
 
 
-Writing Tests
+# Writing Tests
 Every module must have tests for every function, method and constant.
 
 Integration Tests
 test_[command_name]_int.py
 
-Unit Tests
+#### Unit Tests
 We use unit tests to validate the behavior of functions and methods, and the values constants.
     Unit tests should be (by far) the most numerous tests written in relation to any component code.
     All unit tests must go into the tests/unit directory and be named in the following fashion:
@@ -242,7 +239,7 @@ We generally do not do "strict mocking", i.e. unexpected calls on mock objects a
 
 For the most part, test code style should adhere to all of the same rules as regular code.
 
-Test Files
+# Test Files
 All test files must adhere to the following pattern:
 
 Files start with Imports organized in the fashion described in the imports section of this document
@@ -278,7 +275,7 @@ def dummy_resources_list():
     return list
 
 
-Tests
+# Tests
 Very simple tests can be written very simply, e.g.
 
 def make_prunable_resource_assertions(self, prunable_resources):
@@ -304,7 +301,7 @@ def test_get_connection_raises_exception(test_case, dummy_environment):
 
 In general when asserting that a mock was called, favor the use of assert_called_once_with or assert_called_with over assert_called_once
 
-Mocking
+# Mocking
 It is often necessary to mock functions being called by the unit under test. The 'with patch' pattern for mocking must always be used rather than using a patch decorator, e.g.
 
 Good
@@ -341,7 +338,7 @@ def test_something(self, mock_method):
 
     mock_method.assert_called_with()
 
-Data Driven Tests
+# Data Driven Tests
 To accomplish data driven tests, use the [mark.parametrize] decorator, e.g.
 
 @pytest.mark.parametrize("exception, expected", [[requests.exceptions.ConnectionError(), True], [Exception(), False]])
@@ -353,10 +350,10 @@ def test_retry_if_connection_error(test_case, exception, expected):
     # then
     test_case.assertEqual(actual, expected)
 
-Assertions
+# Assertions
 When asserting on exceptions, use assertRaisesRegex to assert on the exception message content rather than assertRaises that only asserts that any exception was raised.
 
-Assertion Wrapper Functions
+# Assertion Wrapper Functions
 In some test files, multiple tests will use the same assertions that can be extracted out into functions that wrap the actual assertions.
 
 This should be done with the aim of less duplicated code and easier to read tests.
